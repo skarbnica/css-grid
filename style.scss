@@ -4,67 +4,56 @@
 }
 
 .cols {
-  border: 1px solid #000;
+
 }
 
 .col {
     &-12 {
        flex-basis: 100%;
        max-width: 100%;
-       background: green;
        }
     &-11 {
        flex-basis: 91.66666667%;
        max-width: 91.66666667%;
-       background: orange;
        }
     &-10 {
        flex-basis: 83.33333333%;
        max-width: 83.33333333%;
-       background: black;
        }
     &-9 {
        flex-basis: 75%;
        max-width: 75%;
-       background: grey;
     }
     &-8 {
        flex-basis: 66.66666667%;
        max-width: 66.66666667%;
-       background: pink;
     }
     &-7 {
        flex-basis: 58.33333333%;
        max-width: 58.33333333%;
-       background: silver;
     }
     &-6 {
        flex-basis: 50%;
        max-width: 50%;
-       background: yellow;
        }
     &-5 {
        flex-basis: 41.66666667%;
        max-width: 41.66666667%;
-       background: fuchsia;
     }
     &-4 {
        flex-basis: 33.33333333%;
        max-width: 33.33333333%;
-       background: orangered;
     }
     &-3 {
        flex-basis: 25%;
        max-width: 25%;
-       background: mediumblue;
     }
     &-2 {
        flex-basis: 16.66666667%;
        max-width: 16.66666667%;
-       background: red;
     }
     &-1 {
        flex-basis: 8.33333333%;
        max-width: 8.33333333%;
-       width: 33.333%; background: blue;}
+   }
 }
