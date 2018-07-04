@@ -1,13 +1,12 @@
 
-.row {
+.sj-row {
   display: flex;
 }
 
-.cols {
-
+.sj-col-inline {
+    display: inline-flex;
 }
-
-.col {
+.sj-col {
     &-12 {
        flex-basis: 100%;
        max-width: 100%;
@@ -56,4 +55,28 @@
        flex-basis: 8.33333333%;
        max-width: 8.33333333%;
    }
+}
+.sj {
+  &-left {
+      justify-content: flex-start;
+  }
+  &-right {
+      justify-content: flex-end;
+  }
+  &-center {
+      justify-content: center;
+  }
+  &-top {
+      align-items: flex-start;
+  }
+  &-bottom {
+      align-items: flex-end;
+  }
+  &-middle {
+      align-items: center;
+  }
+  &-all-center {
+      justify-content: center;
+      align-items: center;      
+  }
 }
