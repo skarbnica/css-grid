@@ -118,6 +118,12 @@
       -ms-flex-align: center;
           align-items: center;
 }
+.sj-sb {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 .sj-all-center {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
